@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T08:16:41.998Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="IXgavrigrvlzuklyEwgq" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T08:18:33.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="9y33WX7AW2b60IwilSU9" version="13.10.4" type="github">
   <diagram id="AUU8yqSeqHQyX3ru-vRn" name="Page-1">
     <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,12 +7,12 @@
         <mxCell id="DqiCOa37YYN-CVxIYkIi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.112;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DqiCOa37YYN-CVxIYkIi-23" target="DqiCOa37YYN-CVxIYkIi-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-26" value="心跳，上下麦" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DqiCOa37YYN-CVxIYkIi-25">
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-26" value="心跳，上下麦，进入列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DqiCOa37YYN-CVxIYkIi-25">
           <mxGeometry x="-0.0517" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-23" value="消息总线" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-23" value="消息总线" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="110" y="250" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DqiCOa37YYN-CVxIYkIi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DqiCOa37YYN-CVxIYkIi-24" target="DqiCOa37YYN-CVxIYkIi-27">
@@ -23,20 +23,36 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-24" value="" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DqiCOa37YYN-CVxIYkIi-24" target="DqiCOa37YYN-CVxIYkIi-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="479" y="170" />
+              <mxPoint x="479" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-35" value="消费上下麦，进入列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DqiCOa37YYN-CVxIYkIi-34">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-24" value="" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="110" y="80" width="440" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-27" value="更新服务" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;gradientColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="300" y="250" width="110" height="40" as="geometry" />
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-27" value="更新ES索引" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="275" y="250" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-30" value="redis" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-30" value="redis" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="120" y="85" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-31" value="业务kafka" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-31" value="业务kafka" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="260" y="85" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-32" value="平台用户心跳" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-32" value="平台用户心跳" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="414" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-33" value="推荐服务" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="424" y="250" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
