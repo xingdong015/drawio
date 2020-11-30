@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T08:07:22.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="fI061ZCONIDjQJrUwRxt" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T08:08:14.117Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="AHRasWAalZv3YuhJu2Ol" version="13.10.4" type="github">
   <diagram id="AUU8yqSeqHQyX3ru-vRn" name="Page-1">
     <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,33 +19,27 @@
         <mxCell id="DqiCOa37YYN-CVxIYkIi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.125;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DqiCOa37YYN-CVxIYkIi-7" target="DqiCOa37YYN-CVxIYkIi-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-14" value="用户行为" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DqiCOa37YYN-CVxIYkIi-10">
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-14" value="事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DqiCOa37YYN-CVxIYkIi-10">
           <mxGeometry x="-0.1948" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DqiCOa37YYN-CVxIYkIi-7" target="DqiCOa37YYN-CVxIYkIi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DqiCOa37YYN-CVxIYkIi-7" target="DqiCOa37YYN-CVxIYkIi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DqiCOa37YYN-CVxIYkIi-17" value="写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DqiCOa37YYN-CVxIYkIi-16">
+          <mxGeometry x="-0.4326" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DqiCOa37YYN-CVxIYkIi-7" value="业务服务" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="120" y="190" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DqiCOa37YYN-CVxIYkIi-9" target="DqiCOa37YYN-CVxIYkIi-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="610" y="80" />
-              <mxPoint x="610" y="150" />
-              <mxPoint x="540" y="150" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-13" value="订阅" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DqiCOa37YYN-CVxIYkIi-12">
-          <mxGeometry x="0.0947" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="DqiCOa37YYN-CVxIYkIi-9" value="消息总线" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="120" y="50" width="480" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DqiCOa37YYN-CVxIYkIi-11" value="离线更新服务" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;gradientColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="480" y="190" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
